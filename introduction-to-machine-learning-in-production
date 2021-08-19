@@ -1,0 +1,14 @@
+https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome
+
+Week1
+
+concept drift / data drift
+
+
+define project
+define data and establish baseline
+label and organize data
+select and train model 
+perform error analysis
+deploy in production
+monitor & maintain system
