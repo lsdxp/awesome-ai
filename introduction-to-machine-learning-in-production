@@ -23,3 +23,11 @@ Computing Resource (CPU/GPU/Memory)
 Latency, Throughput(QPS)
 Logging
 Security and Privacy
+
+Deployment patterns:
+
+shadow mode
+canary deployment
+blue green deployment
+
+pick an appropriate degree of automation between human and full automation
