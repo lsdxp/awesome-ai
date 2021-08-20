@@ -44,10 +44,13 @@ Week 1: Overview of the ML Lifecycle and Deployment
 If you wish to dive more deeply into the topics covered this week, feel free to check out these optional references. You won’t have to read these to complete this week’s practice quizzes.
 
 Concept and Data Drift
+https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb
 
 Monitoring ML Models
+https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
 
 A Chat with Andrew on MLOps: From Model-centric to Data-centric
+https://www.youtube.com/watch?v=06-AZXmwHjo&ab_channel=DeepLearningAI
 
 Papers
 
