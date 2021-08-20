@@ -12,3 +12,14 @@ select and train model
 perform error analysis
 deploy in production
 monitor & maintain system
+
+Deployment:
+
+Checklist of design choice:
+
+realtime vs Batch
+Cloud vs Edge/Browser
+Computing Resource (CPU/GPU/Memory)
+Latency, Throughput(QPS)
+Logging
+Security and Privacy
