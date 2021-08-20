@@ -31,3 +31,9 @@ canary deployment
 blue green deployment
 
 pick an appropriate degree of automation between human and full automation
+
+
+Monitoring:
+
+software metrics/input metrics/output metrics
+manual/automatic retraining
