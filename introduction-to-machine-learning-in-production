@@ -95,11 +95,15 @@ skewed datasets using confusion matrix: precision/recall/F1-score
 
 Audit Framework
 
-Data Augmentation CheckList:
+for unstructured data-> Data Augmentation CheckList:
 
 realistic/algo poorly/human well
 
 using data iteration loop for improvment plus hyperparameter search
 
 if dataset is large and x-> y mapping is clear, adding data should not hurt accuracy
+
+for structured data -> add new features
+
+cold-start problem: collaborative -> content based filtering
 
