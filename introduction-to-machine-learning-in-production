@@ -81,3 +81,13 @@ quick-and-dirty implementation
 performance for older system
 
 sanity-check on one example or a small subset
+
+error analysis metrics:
+
+fraction of errors has the tag
+of all data with the tag, how much missclassified
+fraction of data has the tag
+how much for improvement
+
+prioritize and collect more data
+
