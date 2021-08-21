@@ -59,3 +59,25 @@ Konstantinos, Katsiapis, Karmarkar, A., Altay, A., Zaks, A., Polyzotis, N., … 
 Paleyes, A., Urma, R.-G., & Lawrence, N. D. (2020). Challenges in deploying machine learning: A survey of case studies. http://arxiv.org/abs/2011.09926
 
 Sculley, D., Holt, G., Golovin, D., Davydov, E., & Phillips, T. (n.d.). Hidden technical debt in machine learning systems. Retrieved April 28, 2021, from Nips.c https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+
+
+
+
+Week2
+
+Modelling:
+
+breakdown of low average error:
+
+performance on disproportionately important examples
+performance on key slices of data
+rare class
+
+establish baseline:
+
+human level performance(HLP) -> good for unstructured data(image,audio,text)
+literature search for state-of-art/open source
+quick-and-dirty implementation
+performance for older system
+
+sanity-check on one example or a small subset
