@@ -144,3 +144,27 @@ obtain data: inventory data
 data provenance and lineage (for fixing problems from beginning)
 
 keep track of metadata
+
+
+
+Week 3: Data Definition and Baseline
+https://arxiv.org/pdf/1706.06969.pdf
+
+
+Label ambiguity
+https://csgaobb.github.io/Projects/DLDL.html
+
+Data pipelines
+https://cs230.stanford.edu/blog/datapipeline/#best-practices
+
+Data lineage
+https://blog.tensorflow.org/2021/01/ml-metadata-version-control-for-ml.html
+
+MLops
+https://www.coursera.org/learn/introduction-to-machine-learning-in-production/supplement/VUa1k/week-3-optional-references#:~:text=Data%20lineage-,MLops,-Geirhos%2C%20R.%2C%20Janssen
+
+Geirhos, R., Janssen, D. H. J., Schutt, H. H., Rauber, J., Bethge, M., & Wichmann, F. A. (n.d.). Comparing deep neural networks against humans: object recognition when the signal gets weaker∗. Retrieved May 7, 2021, from Arxiv.org website:
+
+
+
+
