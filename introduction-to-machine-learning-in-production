@@ -1,0 +1,170 @@
+https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome
+
+Week1
+
+concept drift / data drift
+
+
+define project
+define data and establish baseline
+label and organize data
+select and train model 
+perform error analysis
+deploy in production
+monitor & maintain system
+
+Deployment:
+
+Checklist of design choice:
+
+realtime vs Batch
+Cloud vs Edge/Browser
+Computing Resource (CPU/GPU/Memory)
+Latency, Throughput(QPS)
+Logging
+Security and Privacy
+
+Deployment patterns:
+
+shadow mode
+canary deployment
+blue green deployment
+
+pick an appropriate degree of automation between human and full automation
+
+
+Monitoring:
+
+software metrics/input metrics/output metrics
+manual/automatic retraining
+
+Reading Material:
+
+Week 1: Overview of the ML Lifecycle and Deployment
+If you wish to dive more deeply into the topics covered this week, feel free to check out these optional references. You won’t have to read these to complete this week’s practice quizzes.
+
+Concept and Data Drift
+https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb
+
+Monitoring ML Models
+https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
+
+A Chat with Andrew on MLOps: From Model-centric to Data-centric
+https://www.youtube.com/watch?v=06-AZXmwHjo&ab_channel=DeepLearningAI
+
+Papers
+
+Konstantinos, Katsiapis, Karmarkar, A., Altay, A., Zaks, A., Polyzotis, N., … Li, Z. (2020). Towards ML Engineering: A brief history of TensorFlow Extended (TFX). http://arxiv.org/abs/2010.02013 
+
+Paleyes, A., Urma, R.-G., & Lawrence, N. D. (2020). Challenges in deploying machine learning: A survey of case studies. http://arxiv.org/abs/2011.09926
+
+Sculley, D., Holt, G., Golovin, D., Davydov, E., & Phillips, T. (n.d.). Hidden technical debt in machine learning systems. Retrieved April 28, 2021, from Nips.c https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+
+
+
+
+Week2
+
+Modelling:
+
+breakdown of low average error:
+
+performance on disproportionately important examples
+performance on key slices of data
+rare class
+
+establish baseline:
+
+human level performance(HLP) -> good for unstructured data(image,audio,text)
+literature search for state-of-art/open source
+quick-and-dirty implementation
+performance for older system
+
+sanity-check on one example or a small subset
+
+error analysis metrics:
+
+fraction of errors has the tag
+of all data with the tag, how much missclassified
+fraction of data has the tag
+how much for improvement
+
+prioritize and collect more data
+
+skewed datasets using confusion matrix: precision/recall/F1-score
+
+Audit Framework
+
+for unstructured data-> Data Augmentation CheckList:
+
+realistic/algo poorly/human well
+
+using data iteration loop for improvment plus hyperparameter search
+
+if dataset is large and x-> y mapping is clear, adding data should not hurt accuracy
+
+for structured data -> add new features
+
+cold-start problem: collaborative -> content based filtering
+
+experiment tracking
+
+
+
+Week 2: Select and Train Model
+If you wish to dive more deeply into the topics covered this week, feel free to check out these optional references. You won’t have to read these to complete this week’s practice quizzes.
+
+Establishing a baseline
+https://blog.ml.cmu.edu/2020/08/31/3-baselines/
+
+Error analysis
+https://techcommunity.microsoft.com/t5/azure-ai/responsible-machine-learning-with-error-analysis/ba-p/2141774
+
+Experiment tracking
+https://neptune.ai/blog/ml-experiment-tracking
+
+Papers
+
+Brundage, M., Avin, S., Wang, J., Belfield, H., Krueger, G., Hadfield, G., … Anderljung, M. (n.d.). Toward trustworthy AI development: Mechanisms for supporting verifiable claims∗. Retrieved May 7, 2021http://arxiv.org/abs/2004.07213v2
+
+Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2019). Deep double descent: Where bigger models and more data hurt. Retrieved from http://arxiv.org/abs/1912.02292
+
+Week3
+
+ambiguity of data labelling 
+
+data label consistency
+
+improvment: standardize label, merge classes, create new class to capture uncertainty
+
+improve hlp since ml might acctually just do better in agreement
+
+obtain data: inventory data
+
+data provenance and lineage (for fixing problems from beginning)
+
+keep track of metadata
+
+
+
+Week 3: Data Definition and Baseline
+https://arxiv.org/pdf/1706.06969.pdf
+
+
+Label ambiguity
+https://csgaobb.github.io/Projects/DLDL.html
+
+Data pipelines
+https://cs230.stanford.edu/blog/datapipeline/#best-practices
+
+Data lineage
+https://blog.tensorflow.org/2021/01/ml-metadata-version-control-for-ml.html
+
+MLops
+https://www.coursera.org/learn/introduction-to-machine-learning-in-production/supplement/VUa1k/week-3-optional-references#:~:text=Data%20lineage-,MLops,-Geirhos%2C%20R.%2C%20Janssen
+
+Geirhos, R., Janssen, D. H. J., Schutt, H. H., Rauber, J., Bethge, M., & Wichmann, F. A. (n.d.). Comparing deep neural networks against humans: object recognition when the signal gets weaker∗. Retrieved May 7, 2021, from Arxiv.org website:
+
+
+
+
