@@ -132,3 +132,9 @@ Nakkiran, P., Kaplun, G., Bansal, Y., Yang, T., Barak, B., & Sutskever, I. (2019
 Week3
 
 ambiguity of data labelling 
+
+data label consistency
+
+improvment: standardize label, merge classes, create new class to capture uncertainty
+
+improve hlp since ml might acctually just do better in agreement
