@@ -138,3 +138,9 @@ data label consistency
 improvment: standardize label, merge classes, create new class to capture uncertainty
 
 improve hlp since ml might acctually just do better in agreement
+
+obtain data: inventory data
+
+data provenance and lineage (for fixing problems from beginning)
+
+keep track of metadata
