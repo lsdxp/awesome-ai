@@ -1,0 +1,9 @@
+Keras Tuner
+
+AutoML
+
+NAS: Macro/Micro, chain structure/complex multi branch
+
+search strategy: grid search, random search,bayesian optimization,evolutionary methods, reinforcement learning
+
+efficacy: lower fidelity estimates,learning curve extrapolation,weight inheritance/network morphisms
