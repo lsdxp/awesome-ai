@@ -18,7 +18,7 @@ hughes effect
 
 quantization aware training vs post-training quantization
 
-pruning
+pruning: connection sparsity， sparsity ramp-up
 
 
 
