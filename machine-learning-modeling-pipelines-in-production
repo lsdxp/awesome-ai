@@ -20,5 +20,8 @@ quantization aware training vs post-training quantization
 
 pruning: connection sparsity， sparsity ramp-up
 
+distributed-training: data-parallel, model parallel
+
+data parallel: synchronous vs asynchronous
 
 
