@@ -24,4 +24,8 @@ distributed-training: data-parallel, model parallel
 
 data parallel: synchronous vs asynchronous
 
+overcome memory constraints: gradient accumulation, memory swap
+
+pipline parallelism
+
 
