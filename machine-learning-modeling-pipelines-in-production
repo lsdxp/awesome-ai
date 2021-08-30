@@ -1,0 +1,24 @@
+Keras Tuner
+
+AutoML
+
+NAS: Macro/Micro, chain structure/complex multi branch
+
+search strategy: grid search, random search,bayesian optimization,evolutionary methods, reinforcement learning
+
+efficacy: lower fidelity estimates,learning curve extrapolation,weight inheritance/network morphisms
+
+https://googlecoursera.qwiklabs.com/focuses/17429036?parent=lti_session
+
+https://googlecoursera.qwiklabs.com/focuses/17429077?parent=lti_session
+
+high dimension problem: more features, overfit, distance alike and hard to form cluster, concentration in euclidean distance
+
+hughes effect
+
+quantization aware training vs post-training quantization
+
+pruning: connection sparsity， sparsity ramp-up
+
+
+
