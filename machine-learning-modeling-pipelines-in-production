@@ -16,5 +16,9 @@ high dimension problem: more features, overfit, distance alike and hard to form 
 
 hughes effect
 
+quantization aware training vs post-training quantization
+
+pruning
+
 
 
