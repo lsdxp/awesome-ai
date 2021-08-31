@@ -41,3 +41,6 @@ informational harm: membership inference,model inversion,model extraction
 behavioral harm: poisoning, evasion
 
 residual-> autocorrelation
+
+model remediation: data augmentation, interpretable and explainable ML, model editing,model assertion,discrimination remediation
+fairness: TPR,FPR, AUC...
