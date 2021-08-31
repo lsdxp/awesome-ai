@@ -35,3 +35,7 @@ knowledge distillation: dark knowledge, KL divergence
 model performance analysis: black box evaluation and model introspection
 
 model debugging: brenchmark models,sensitivity analysis,residual analysis
+
+sensitivity-> random attack, partial dependence
+informational harm: membership inference,model inversion,model extraction
+behavioral harm: poisoning, evasion
