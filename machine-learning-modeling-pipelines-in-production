@@ -32,3 +32,17 @@ https://googlecoursera.qwiklabs.com/focuses/17448189?parent=lti_session
 
 knowledge distillation: dark knowledge, KL divergence
 
+model performance analysis: black box evaluation and model introspection
+
+model debugging: brenchmark models,sensitivity analysis,residual analysis
+
+sensitivity-> random attack, partial dependence
+informational harm: membership inference,model inversion,model extraction
+behavioral harm: poisoning, evasion
+
+residual-> autocorrelation
+
+model remediation: data augmentation, interpretable and explainable ML, model editing,model assertion,discrimination remediation
+fairness: TPR,FPR, AUC...
+
+https://googlecoursera.qwiklabs.com/focuses/17463615?parent=lti_session
